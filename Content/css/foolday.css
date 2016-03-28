@@ -41,22 +41,16 @@
 .line{width: 1156px;height: 15px;margin: 0 auto;background-color: #c99404;}
 .header .one{font-size: 30px;font-weight: bold;text-indent: 562px;letter-spacing: 3px;}
 .header .two{position: absolute;z-index: 999;top: 21px;left: 646px;padding:5px;height: 47px;font-size: 28px;font-weight: bold;text-align: center;letter-spacing: 3px;background-color: #fedf47;}
-/* p-header */
-.p-header{position: absolute;top: 80px;width: 100%;height: 100px;color: #9920B5;}
-.p-line{width: 1156px;height: 15px;margin: 0 auto;background-color: #9920B5;}
-.p-header .p-one{font-size: 30px;font-weight: bold;text-indent: 562px;letter-spacing: 3px;}
-.p-header .p-two{position: absolute;z-index: 999;top: 21px;left: 646px;padding:5px;height: 47px;font-size: 28px;font-weight: bold;text-align: center;letter-spacing: 3px;background-color: #DE7EF5;}
-.p-price{margin-top: 24px;margin-bottom: 17px;font-size: 35px;font-weight: 800;color: #CB06FB;}
-.p-price span{font-size: 25px;}
-.p-price .yuanjia{margin-left: 15px;font-size: 20px;color: #4d4d4d;font-weight: normal;}
-/* r-header */
-.r-header{position: absolute;top: 80px;width: 100%;height: 100px;color: #FEDF47;}
-.r-header .r-one{font-size: 30px;font-weight: bold;text-indent: 562px;letter-spacing: 3px;}
-.r-header .r-two{position: absolute;z-index: 999;top: 21px;left:646px;padding:5px;height: 47px;font-size: 28px;font-weight: bold;text-align: center;letter-spacing: 3px;background-color: #FC465F;}
-.r-line{width: 1156px;height: 15px;margin: 0 auto;background-color: #FEDF47;}
-.r-price{margin-top: 24px;margin-bottom: 17px;font-size: 35px;font-weight: 800;color: #FEE046;}
-.r-price span{font-size: 25px;}
-.r-price .yuanjia{margin-left: 15px;font-size: 20px;color: #4d4d4d;font-weight: normal;}
+.price span{font-size: 25px;}
+.price .yuanjia{margin-left: 15px;font-size: 20px;color: #4d4d4d;font-weight: normal;}
+		/* p-header&r-header  */
+.p-header{color: #9920B5;}
+.p-line{background-color: #9920B5;}
+.p-header .p-two{background-color: #DE7EF5;}
+.r-header{color: #FEDF47;}
+.r-header .r-two{background-color: #FC465F;}
+.r-line{background-color: #FEDF47;}
+
 /* content */
 .content{/* position: absolute;top: 214px;right: 0; */position: relative;  width: 480px;height: 380px;color: #333;}
 .content h1{font-size: 26px;font-weight: 600;}
@@ -64,9 +58,15 @@
 .content i{display: inline-block;}
 .content .introduce{display: inline-block;margin-top: 15px;margin-bottom: 25px;padding: 5px 10px;font-size: 18px;border: 1px solid #4f4f4d;border-radius: 50px;}
 .content .icon-gou{float: left;width: 20px;height: 20px;margin-top: 3px;margin-right: 20px;background: url(../images/icon/icon-gou.png) center center no-repeat;}
-.content .price{margin-top: 24px;margin-bottom: 17px;font-size: 35px;font-weight: 800;color: #e43c21;}
+.content .price{margin-top: 24px;margin-bottom: 17px;font-size: 35px;font-weight: 800;}
 .content .price span{font-size: 25px;}
 .content .price .yuanjia{margin-left: 15px;font-size: 20px;color: #4d4d4d;font-weight: normal;}
+		/* p-price & r-price */
+.price{color:#E43C21;}
+.p-price{color: #CB06FB;}
+.r-price{color: #FEE046;}
+
+
 .icon-nub1{background: url(../images/icon/icon_1.png) top left no-repeat; position: absolute;left: -65px;top:-25px; display: block; width:38px;height: 104px; }
 .icon-nub2{background: url(../images/icon/icon_2.png) top left no-repeat; position: absolute;left: -65px;top:-25px; display: block; width:58px;height: 104px; }
 .icon-nub3{background: url(../images/icon/icon_3.png) top left no-repeat; position: absolute;left: -65px;top:-25px; display: block; width:56px;height: 104px; }
@@ -75,7 +75,7 @@
 .icon-nubp2{background: url(../images/icon/icon_p2.png) top left no-repeat; position: absolute;left: -65px;top:-25px; display: block; width:58px;height: 104px; }
 .icon-nubp3{background: url(../images/icon/icon_p3.png) top left no-repeat; position: absolute;left: -65px;top:-25px; display: block; width:56px;height: 104px; }
 .icon-nubp4{background: url(../images/icon/icon_p4.png) top left no-repeat; position: absolute;left: -65px;top:-25px; display: block; width:56px;height: 104px; }
- .icon-nubr1{background: url(../images/icon/icon_r1.png) top left no-repeat; position: absolute;left: -65px;top:-25px; display: block; width:56px;height: 104px; }
+.icon-nubr1{background: url(../images/icon/icon_r1.png) top left no-repeat; position: absolute;left: -65px;top:-25px; display: block; width:56px;height: 104px; }
 .icon-nubr2{background: url(../images/icon/icon_r2.png) top left no-repeat; position: absolute;left: -65px;top:-25px; display: block; width:56px;height: 104px; }
    
       /* logo */
