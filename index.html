@@ -5,186 +5,525 @@
     <meta charset="UTF-8" />
     <title>fool-day</title>
     <link rel="stylesheet" type="text/css" href="Content/css/css-reset.css">
-    <style type="text/css">
-    .box {
-        height: 13333px;
-    }
-    
-    .box {
-        min-width: 1200px;
-        margin: 0 auto;
-        background: url(Content/images/bg/bgbg1.png) center top no-repeat;
-    }
-    
-    .box>div {
-        width: 1200px;
-        margin: 0 auto;
-        position: relative;
-        z-index: 1;
-    }
-    /* 样式通用部分 */
-    /* header */
-    
-    .header {
-        position: absolute;
-        top: 80px;
-        height: 100px;
-        width: 100%;
-        color: #C99404;
-    }
-    
-    .line {
-        width: 1156px;
-        height: 15px;
-        margin: 0 auto;
-        background-color: #C99404;
-    }
-    
-    .header .one {
-        font-size: 30px;
-        font-weight: bold;
-        letter-spacing: 3px;
-        text-indent: 562px;
-    }
-    
-    .header .two {
-        position: absolute;
-        top: 21px;
-        right: 275px;
-        z-index: 999;
-        width: 300px;
-        height: 57px;
-        line-height: 57px;
-        text-align: center;
-        font-weight: bold;
-        font-size: 28px;
-        letter-spacing: 3px;
-        background-color: #FEDF47;
-    }
-    /* content */
-    
-    .content {
-        position: absolute;
-        right: 0;
-        top: 214px;
-        color: #333;
-        width: 480px;
-        height: 380px;
-    }
-    
-    .content h1 {
-        font-size: 26px;
-        font-weight: 600;
-
-    }
-    .content .list{height: 26px;line-height: 26px;}
-    .content i{
-		display: inline-block;
-    }
-
-    .content .introduce {
-    	display: inline-block;
-    	border: 1px solid #4F4F4D;
-    	border-radius: 50px;
-    	padding: 5px 10px;
-		margin-top: 15px;
-    	margin-bottom:25px;
-    }
-    .content .icon-gou {
-        float: left;
-		margin-right: 20px;
-        width: 20px;
-        height: 20px;
-        margin-top: 3px;
-        background: url(Content/images/icon/icon-gou.png) center center no-repeat;
-    }
-    .content .price{
-    	font-size: 35px;
-    	color:#E43C21;
-    	font-weight: 800;
-    	margin-top: 24px;
-    }
-    .content .price span{
-			font-size: 25px;
-    }
-    .content .price .yuanjia{
-    	color:#4D4D4D;
-    	font-size: 20px;margin-left: 15px;
-    }
-    /* 细节样式部分 */
-    
-    .banner {}
-    
-    .promotion {
-        height: 120px;
-        width: 100%;
-        background-color: #E43C21;
-    }
-    
-    .box1 {
-        background: url(Content/images/bg/box_1.png) center top no-repeat;
-        height: 2626px;
-    }
-    
-    .box2 {
-        background: url(Content/images/bg/box_2.png) center top no-repeat;
-        height: 1957px;
-    }
-    
-    .box3 {
-        background: url(Content/images/bg/box_3.png) center top no-repeat;
-        height: 1879px;
-    }
-    
-    .box4 {
-        background: url(Content/images/bg/box_4.png) center top no-repeat;
-        height: 1880px;
-    }
-    
-    .box5 {
-        background: url(Content/images/bg/box_5.png) center top no-repeat;
-        height: 1841px;
-    }
-    
-    .box6 {
-        background: url(Content/images/bg/box_6.png) center top no-repeat;
-        height: 1959px;
-    }
-    
-    .box7 {
-        background: url(Content/images/bg/box_7.png) center top no-repeat;
-        height: 1191px;
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="Content/css/foolday.css">
 </head>
 
 <body>
     <div class="wrap">
-        <div class="banner"></div>
-        <div class="promotion"></div>
+        <div class="banner">
+        	<img src="Content/images/banner.png" title="" />
+        </div>
+        <div class="promotion">
+        	<div class="promotion-content w1200 mauto pr">
+            <p class="circle fcw">赠品</p>
+            <p class="slogan fcw fwb">单笔订单<strong>现金</strong>消费满<strong>300</strong>元送价格299元KIndle Love
+                <br />蚕丝面膜 一盒八片</p>
+            <p class="places">仅限50名</p>
+            <img src="Content/images/banner-right.png" title='' />
+        </div>
+        </div>
         <div class="box">
-            <div class="box1">
-                <div class="header pr">
-                    <p class="one">SELLING&nbsp;KOREAN&nbsp;GOODS</p>
-                    <div class="line"></div>
-                    <p class="two">愚你同乐&nbsp;热卖韩货</p>
+            <div class="box1 clearfix">
+            	<img src="Content/images/logo1.png" title="" class="logo" />
+                <div class="clearfix">
+                    <div class="header pr">
+                        <p class="one">SELLING&nbsp;KOREAN&nbsp;GOODS</p>
+                        <div class="line"></div>
+                        <p class="two">愚你同乐&nbsp;热卖韩货</p>
+                    </div>
+                    <div class="content mt214 fr">
+                        <h1><i class="icon-nub1"></i>保护肌肤的天然之气</h1>
+                        <p class="introduce">后WHoo拱辰享防晒霜</p>
+                        <p class="list"><i class="icon-gou"></i>阻断过度紫外线，引起暑邪，对抗老化</p>
+                        <p class="list"><i class="icon-gou"></i>改善肌肤暗沉，使肌肤更加透明光亮</p>
+                        <p class="list"><i class="icon-gou"></i>为肌肤补充活力，使肌肤更加滋润</p>
+                        <div class="price"><span>&yen;</span>219.00<span>+100积分</span><span class="yuanjia">原价: &yen;469</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt200 ml282 fl">
+                        <img src="Content/images/p1.png">
+                    </div>
                 </div>
-                <div class="content">
-                    <h1><i class="icon-nub1"></i>保护肌肤的天然之气</h1>
-                    <p class="introduce">后WHoo拱辰享防晒霜</p>
-                    <p class="list"><i class="icon-gou"></i>阻断过度紫外线，引起暑邪，对抗老化</p>
-                    <p class="list"><i class="icon-gou"></i>改善肌肤暗沉，使肌肤更加透明光亮</p>
-                    <p class="list"><i class="icon-gou"></i>为肌肤补充活力，使肌肤更加滋润</p>
-                    <div class="price"><span>&yen;</span>219.00<span>+100积分</span><span class="yuanjia">原价：&yen;469</span></div>
-                    <a href="" class="btn-buy">立即购买</a>
+                <div class="clearfix">
+                    <div class="content fl ml180 mt100">
+                        <h1><i class="icon-nub2"></i>十年大气之作 完美修复干枯发质</h1>
+                        <p class="introduce">爱茉莉Amore 玫瑰橄榄蜂蜜护发精油</p>
+                        <p class="list"><i class="icon-gou"></i>超强渗透力——能迅速进入发芯深处</p>
+                        <p class="list"><i class="icon-gou"></i>超强再生力——能促进毛鳞片生长</p>
+                        <p class="list"><i class="icon-gou"></i>超强保护力——能在秀发形成保护膜，秀发更加柔顺</p>
+                        <div class="price"><span>&yen;</span>42.00<span>+26积分</span><span class="yuanjia">原价: &yen;158</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mr103 mt17 fr">
+                        <img src="Content/images/p2.png">
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="content fr">
+                        <h1><i class="icon-nub3"></i>自然发酵赋予的滋润水分感</h1>
+                        <p class="introduce">秀丽韩Sooryehan酵秘淡防晒霜</p>
+                        <p class="list"><i class="icon-gou"></i>令肌肤护肤自然活力，打造健康肌肤</p>
+                        <p class="list"><i class="icon-gou"></i>防紫外线引起的肌肤老化，造就紧致肌肤</p>
+                        <p class="list"><i class="icon-gou"></i>为肌肤补充营养，缔造水润光泽肌肤</p>
+                        <div class="price"><span>&yen;</span>135.00<span>+73积分</span><span class="yuanjia">原价: &yen;238</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 ml180 fl">
+                        <img src="Content/images/p3.png">
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="content ml180 mt80 fl">
+                        <h1><i class="icon-nub4"></i>可以“吃”进去的营养</h1>
+                        <p class="introduce">LG润膏</p>
+                        <p class="list"><i class="icon-gou"></i>给秀发高度营养——坚固发根&强韧发丝</p>
+                        <p class="list"><i class="icon-gou"></i>修复烫染损伤发梢——消灭分叉&告别干燥</p>
+                        <p class="list"><i class="icon-gou"></i>浓缩精华——滴开启全面修复</p>
+                        <div class="price"><span>&yen;</span>39.00<span>+29积分</span><span class="yuanjia">原价: &yen;148</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt20 mr103 fr">
+                        <img src="Content/images/p4.png">
+                    </div>
+                </div>
+                <div class="productlist clearfix mt10">
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
                 </div>
             </div>
-            <div class="box2"></div>
-            <div class="box3"></div>
-            <div class="box4"></div>
-            <div class="box5"></div>
-            <div class="box6"></div>
-            <div class="box7"></div>
+            <div class="box2 clearfix">
+            <img src="Content/images/logo4.png" title="" class="logo logo2" />
+                <div class="clearfix">
+                    <div class="p-header pr mt130">
+                        <p class="p-one">SCIENOE&nbsp;AND&nbsp;TECHNOLOGY</p>
+                        <div class="p-line"></div>
+                        <p class="p-two">大牌捡宝&nbsp;科技护肤</p>
+                    </div>
+                    <div class="content mt344 fr">
+                        <h1><i class="icon-nubp1"></i>从前母亲的智慧为我们找来的美丽</h1>
+                        <p class="introduce">韩律Hanyul 天然紫草润泽保湿面部精油</p>
+                        <p class="list"><i class="icon-gou"></i>红色的紫草成分保湿镇静效果</p>
+                        <p class="list"><i class="icon-gou"></i>舒适的肌肤100%天然由来精油</p>
+                        <p class="list"><i class="icon-gou"></i>精油般丰富的使用感</p>
+                        <div class="p-price"><span>&yen;</span>180.00<span>+89积分</span><span class="yuanjia">原价: &yen;359</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt265 ml282 fl">
+                        <img src="Content/images/p5.png">
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="content ml180 mt80 fl">
+                        <h1><i class="icon-nubp2"></i>重焕肌肤生机 用肌肤隐藏年龄</h1>
+                        <p class="introduce">欧蕙OHUI 极致修颜柔肤水</p>
+                        <p class="list"><i class="icon-gou"></i>调理肌肤各层平衡</p>
+                        <p class="list"><i class="icon-gou"></i>质地粘稠营养丰富，防止肌肤干燥</p>
+                        <p class="list"><i class="icon-gou"></i>全面修复，保湿力强</p>
+                        <div class="p-price"><span>&yen;</span>369.00<span>+185积分</span><span class="yuanjia">原价: &yen;669</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt20 mr103 fr">
+                        <img src="Content/images/p6.png">
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="content fr">
+                        <h1><i class="icon-nubp3"></i>还原肌肤本源之美</h1>
+                        <p class="introduce">亦博IOPE 肌活倍润精华露</p>
+                        <p class="list"><i class="icon-gou"></i>超强抗氧化系统，给肌肤深层滋润</p>
+                        <p class="list"><i class="icon-gou"></i>防紫外线引起的肌肤老化，造就紧致肌肤</p>
+                        <p class="list"><i class="icon-gou"></i>增强肌肤弹性，让肌肤更柔软</p>
+                        <div class="p-price"><span>&yen;</span>529.00<span>+265积分</span><span class="yuanjia">原价: &yen;999</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 ml282 fl">
+                        <img src="Content/images/p7.png">
+                    </div>
+                </div>
+                <div class="productlist clearfix mt25">
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="p-f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="p-f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="p-f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box3 clearfix">
+            <img src="Content/images/logo5.png" title="" class="logo logo2" />
+                <div class="clearfix">
+                    <div class="header mt130 pr">
+                        <p class="one">SIMPLE&nbsp;AND&nbsp;POUTIQUE</p>
+                        <div class="line"></div>
+                        <p class="two">潮愚乐&nbsp;简单精爆</p>
+                    </div>
+                    <div class="content mt344  fr">
+                        <h1><i class="icon-nub1"></i>韩国人气爆款SODAMON</h1>
+                        <p class="introduce">太阳镜时尚流行墨镜TO332-C2</p>
+                        <p class="list"><i class="icon-gou"></i>使用超强度防弹镜片</p>
+                        <p class="list"><i class="icon-gou"></i>适应各种强度的防水</p>
+                        <p class="list"><i class="icon-gou"></i>使用高清，高强度，高弹性的材质</p>
+                        <div class="price"><span>&yen;</span>325.00<span>+163积分</span><span class="yuanjia">原价: &yen;639</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt265 ml282 fl">
+                        <img src="Content/images/p8.png">
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="content ml180 mt80 fl">
+                        <h1><i class="icon-nub2"></i>韩国SNRD时尚太阳镜EYEWEAR</h1>
+                        <p class="introduce">流行墨镜5001-WH_2</p>
+                        <p class="list"><i class="icon-gou"></i>良好的延展性，高温不易断裂</p>
+                        <p class="list"><i class="icon-gou"></i>个体轻材质，舒适感强</p>
+                        <p class="list"><i class="icon-gou"></i>融合了年轻的街头艺术</p>
+                        <div class="price"><span>&yen;</span>499.00<span>+250积分</span><span class="yuanjia">原价: &yen;699</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt20 mr103 fr">
+                        <img src="Content/images/p9.png">
+                    </div>
+                </div>
+                <div class="productlist clearfix mt10">
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box4 clearfix">
+             <img src="Content/images/logo2.png" title="" class="logo logo2" />
+                <div class="clearfix">
+                    <div class="p-header pr mt130">
+                        <p class="p-one">POPULAP&nbsp;COLOR&nbsp;MAKEUP</p>
+                        <div class="p-line"></div>
+                        <p class="p-two">美颜愚色&nbsp;流行彩妆</p>
+                    </div>
+                    <div class="content mt344 fr">
+                        <h1><i class="icon-nubp1"></i>接触水润的烛光肌肤</h1>
+                        <p class="introduce">赫拉HERA 限量版彩虹黑珍珠气垫BB霜</p>
+                        <p class="list"><i class="icon-gou"></i>完美遮瑕——令肌肤水润光泽，妆感自然</p>
+                        <p class="list"><i class="icon-gou"></i>高保湿——蕴含保湿水成分，涂上就像喷雾</p>
+                        <p class="list"><i class="icon-gou"></i>超强防晒功效——隔离紫外线，全面保护</p>
+                        <div class="p-price"><span>&yen;</span>255.00<span>+124积分</span><span class="yuanjia">原价: &yen;459</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt265 ml282 fl">
+                        <img src="Content/images/p10.png">
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="content ml180 mt80 fl">
+                        <h1><i class="icon-nubp2"></i>打造立体鲜明的魅惑双眼</h1>
+                        <p class="introduce">VDL 时尚修容四色眼影</p>
+                        <p class="list"><i class="icon-gou"></i>演绎多变的眼妆风格，轻松打造自然专业的眼部彩妆</p>
+                        <p class="list"><i class="icon-gou"></i>散发透明闪耀光泽，不晕妆</p>
+                        <p class="list"><i class="icon-gou"></i>高饱和，自然晕染，打造自然立体层次眼妆</p>
+                        <div class="p-price"><span>&yen;</span>125.00<span>+63积分</span><span class="yuanjia">原价: &yen;269</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt20 mr103 fr">
+                        <img src="Content/images/p11.png">
+                    </div>
+                </div>
+                <div class="productlist clearfix mt10">
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box5 clearfix">
+            <img src="Content/images/logo3.png" title="" class="logo logo2" />
+                <div class="clearfix">
+                    <div class="header mt130 pr">
+                        <p class="one" id="gift">A&nbsp;SUPPRISE&nbsp;GIFT</p>
+                        <div class="line"></div>
+                        <p class="two">惊喜礼盒&nbsp;纪念套装</p>
+                    </div>
+                    <div class="content mt344  fr">
+                        <h1><i class="icon-nub1"></i>落在皇帝肌肤上的天上之气</h1>
+                        <p class="introduce">后WHoo华阳特别套装（男）</p>
+                        <p class="list"><i class="icon-gou"></i>促进皮肤再生。赋予活力，滋养强壮</p>
+                        <p class="list"><i class="icon-gou"></i>恢复皮肤老化，减少皱纹，提高弹力</p>
+                        <p class="list"><i class="icon-gou"></i>鹿茸，冬芝草，灵芝等中药配方充分提供皮肤水分</p>
+                        <div class="price"><span>&yen;</span>880.00<span>+439积分</span><span class="yuanjia">原价: &yen;1489</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt265 ml282 fl">
+                        <img src="Content/images/p12.png">
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="content ml180 mt25 fl">
+                        <h1><i class="icon-nub2"></i>水润滋养魔法缔造莹润健康肌肤</h1>
+                        <p class="introduce">呼吸SUM37度秘密水润滋养魔法精华特别套装</p>
+                        <p class="list"><i class="icon-gou"></i>感觉呼吸知道肌肤深处，比原来更有生机</p>
+                        <p class="list"><i class="icon-gou"></i>肌肤变得亮白，水分度提高</p>
+                        <p class="list"><i class="icon-gou"></i>紧致更富有弹性</p>
+                        <div class="price"><span>&yen;</span>479.00<span>+240积分</span><span class="yuanjia">原价: &yen;868</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mr103 fr">
+                        <img src="Content/images/p13.png">
+                    </div>
+
+                </div>
+                  <div class="productlist clearfix mt25">
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box6 clearfix">
+            <img src="Content/images/logo6.png" title="" class="logo logo2" />
+            	<div class="clearfix">
+                    <div class="p-header pr mt130">
+                        <p class="p-one">PORORO&nbsp;CHILDREN'S&nbsp;SERIES</p>
+                        <div class="p-line"></div>
+                        <p class="p-two">韩国进口&nbsp;宝宝露儿童系列</p>
+                    </div>
+                    <div class="content mt344 fr">
+                        <h1><i class="icon-nubp1"></i>只为婴儿准备的成分与原料</h1>
+                        <p class="introduce">宝露露Pororo 洗发+护发+沐浴露三合一</p>
+                        <p class="list"><i class="icon-gou"></i>含有天然成分的鱼腥草，芦荟等成分的萃取</p>
+                        <p class="list"><i class="icon-gou"></i>含有维生素B5，维生素E，金松根等成分</p>
+                        <p class="list"><i class="icon-gou"></i>清爽无刺激，有效镇定肌肤</p>
+                        <div class="p-price"><span>&yen;</span>50.00<span>+28积分</span><span class="yuanjia">原价: &yen;129</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt265 ml282 fl">
+                        <img src="Content/images/p14.png">
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="content ml180 mt80 fl">
+                        <h1><i class="icon-nubp2"></i>韩国进口软毛牙刷</h1>
+                        <p class="introduce">宝露露Pororo 牙刷旅行套盒</p>
+                        <p class="list"><i class="icon-gou"></i>99.9%的抗菌机能毛，预防蛀牙最好的选择</p>
+                        <p class="list"><i class="icon-gou"></i>双重刷毛，能刷掉牙菌斑</p>
+                        <p class="list"><i class="icon-gou"></i>防滑手柄，不用担心牙刷会掉落</p>
+                        <div class="p-price"><span>&yen;</span>12.00<span>+6积分</span><span class="yuanjia">原价: &yen;58</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt20 mr103 fr">
+                        <img src="Content/images/p15.png">
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="content fr">
+                        <h1><i class="icon-nubp3"></i>纯天然无刺激的蚊虫克星</h1>
+                        <p class="introduce">宝露露Pororo 小企鹅儿童驱蚊喷雾液</p>
+                        <p class="list"><i class="icon-gou"></i>不会对昆虫造成直接伤害的环保产品</p>
+                        <p class="list"><i class="icon-gou"></i>无害成分，可直接喷洒在肌肤上</p>
+                        <p class="list"><i class="icon-gou"></i>清爽的天然橙香。使心情愉悦</p>
+                        <div class="p-price"><span>&yen;</span>22.00<span>+16积分</span><span class="yuanjia">原价: &yen;158</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 ml282 fl">
+                        <img src="Content/images/p7.png">
+                    </div>
+                </div>
+                <div class="productlist clearfix mt25">
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="p-f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="p-f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                    <div>
+                        <img src="Content/images/product-list.png" />
+                        <p class="f24">自然乐园Nature Republic芦荟胶</p>
+                        <p class="p-f18">&yen;<span>25.00</span>+13积分</p>
+                        <a href="" class="btn-list">立刻购买</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box7 clearfix">
+            <img src="Content/images/logo7.png" title="" class="logo logo2" />
+            	<div class="clearfix">
+                    <div class="r-header pr mt130">
+                        <p class="r-one">KEEPING&nbsp;IN&nbsp;GOOD&nbsp;HEALTH</p>
+                        <div class="r-line"></div>
+                        <p class="r-two">清润真&nbsp;健康养生</p>
+                    </div>
+                    <div class="content mt344 fr">
+                        <h1><i class="icon-nubr1"></i>为了全家人的眼部护理产品</h1>
+                        <p class="introduce">清润真护眼宝</p>
+                        <p class="list"><i class="icon-gou"></i>纯天然萃取物帮你解决一切眼部隐患</p>
+                        <p class="list"><i class="icon-gou"></i>有效缓解眼部疲劳</p>
+                        <p class="list"><i class="icon-gou"></i>强化视力，活化视网膜功效</p>
+                        <div class="r-price"><span>&yen;</span>192.00<span>+96积分</span><span class="yuanjia">原价: &yen;359</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt265 ml282 fl">
+                        <img src="Content/images/p17.png">
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="content ml180 mt80 fl">
+                        <h1><i class="icon-nubr2"></i>为了全家人的免疫增进产品</h1>
+                        <p class="introduce">清润真酵母葡聚糖褐藻糖胶白桦茸</p>
+                        <p class="list"><i class="icon-gou"></i>增强人体免疫</p>
+                        <p class="list"><i class="icon-gou"></i>无刺激副作用</p>
+                        <p class="list"><i class="icon-gou"></i>提高抵抗力</p>
+                        <div class="r-price"><span>&yen;</span>570.00<span>+288积分</span><span class="yuanjia">原价: &yen;999</span></div>
+                        <a href="" class="btn-buy">立即购买</a>
+                    </div>
+                    <div class="picbox1 mt20 mr103 fr">
+                        <img src="Content/images/p18.png">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
